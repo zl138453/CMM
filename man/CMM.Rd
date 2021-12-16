@@ -39,5 +39,5 @@ CMM(data,outcome,med,pred,cov_con=NULL,cov_cat=NULL,weight=NULL,family="identity
 
 \examples{
 data(CMM_test_data)
-result=CMM(uu,1,3:22,2,cov_con=23:24,cov_cat=NULL,weight=NULL,boot=100)
+result=CMM(CMM_test_data,1,3:22,2,cov_con=23:24,cov_cat=NULL,weight=NULL,boot=100)
 }
